@@ -1,0 +1,257 @@
+html {
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html{
+  height: 10000px; 
+  background: linear-gradient(#80daff, #009fe1, #084080, #001a33, #000000);
+}
+
+#hamnav {
+  width: 100%;
+  background: #80daff;
+  top: 0;
+}
+
+#hamnav label, #hamburger { display: none; }
+
+#hamitems { display: flex; }
+#hamitems a {
+  width: 100%; 
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px){
+#hamnav label { 
+    display: inline-block; 
+    color: white;
+    font-style: normal;
+    font-size: 2.5rem;
+    padding: 10px;
+  }
+
+#hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+#hamitems { display: none; }
+#hamnav input:checked ~ #hamitems { display: block; }
+}
+
+html, body { 
+  padding: 0; 
+  margin: 0; 
+  font-family: arial, sans-serif; 
+}
+
+#hamitems a:hover {
+  background: #009fe1;
+}
+
+@media screen and (max-width: 768px){
+  
+#hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #80daff;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+#hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+  }
+
+#hamitems { display: none; }
+#hamnav input:checked ~ #hamitems { display: block; }
+}
+
+button{
+  width: 250px;
+  height: 50px;
+  background: black;
+  text-transform: uppercase;
+  color: #80daff;
+  font-size: 1em;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+}
+
+footer{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 9900px;
+  width: 100%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+@media screen and (max-width: 300px){
+  footer{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 600px){
+  footer{
+    display: flex;
+    width: 150px;
+    height: 100px;
+    margin-left: 34%;
+  }
+}
+
+h1 {
+    padding: 30px;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 6em;
+    text-align: center;
+    opacity: 55%;
+}
+
+@media screen and (max-width: 900px) {
+  h1{ 
+     display: inline-block; 
+  }
+}
+
+figure{
+  float: right;
+  margin-right: -575px;
+}
+
+img{
+  margin-top: 390px;
+}
+
+.seaAnimals:nth-child(1){
+    margin-left: -300px;
+}
+html {
+	box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+html{
+  height: 860px;
+  background: #80daff;
+  
+}
+/* [ON BIG SCREENS] */
+/* Wrapper */
+#hamnav {
+    width: 100%;
+    background: #80daff;
+    /* Optional */
+    position: sticky;
+    top: 0;
+  }
+  
+  #hamnav label, #hamburger { display: none; }
+  
+  #hamitems { display: flex; }
+  #hamitems a {
+    width: 100%; /* 100% / 5 tabs = 20% */
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px){
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      font-style: normal;
+      font-size: 2.5em;
+      padding: 10px;
+    }
+  
+    /* Break down menu items into vertical */
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+    }
+  
+    /* Toggle Show/Hide Menu */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+  }
+  
+  /* [DOES NOT MATTER] */ 
+  html, body { 
+    padding: 0; 
+    margin: 0; 
+    font-family: arial, sans-serif; 
+  }
+  
+  #hamitems a:hover {
+    background: #009fe1;
+  }
+  
+  /* [ON SMALL SCREENS] */
+  @media screen and (max-width: 768px){
+    /* Show Hamburger Icon */
+    #hamnav label { 
+      display: inline-block; 
+      color: white;
+      background: #80daff;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* Break down menu items into vertical */
+    #hamitems a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+    }
+  
+    /* Toggle Show/Hide Menu */
+    #hamitems { display: none; }
+    #hamnav input:checked ~ #hamitems { display: block; }
+  }
+  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: white;
+    border: 10px solid #80daff;
+      ;
+  }
+  a{
+    max-width: 33%;
+    padding: 25px;
+  }
+  
+  header{
+    text-align: center;
+    font-size: 4rem;
+    color: darkblue;
+  }
+
