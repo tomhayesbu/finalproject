@@ -1,6 +1,8 @@
 html {
 	box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 *,
 *:before,
@@ -9,7 +11,7 @@ html {
 }
 
 html{
-  height: 10000px; 
+  height: 15000px; 
   background: linear-gradient(#80daff, #009fe1, #084080, #001a33, #000000);
 }
 
@@ -24,7 +26,7 @@ html{
 #hamitems { display: flex; }
 #hamitems a {
   width: 100%; 
-  padding: 10px;
+  padding: 0px;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -80,7 +82,7 @@ html, body {
 }
 
 button{
-  width: 250px;
+  width: 150px;
   height: 50px;
   background: black;
   text-transform: uppercase;
@@ -96,10 +98,8 @@ footer{
   margin-left: auto;
   margin-right: auto;
   position: absolute;
-  top: 9900px;
+  top: 100px;
   width: 100%;
-  margin-left: 40%;
-  margin-right: 40%;
 }
 
 @media screen and (max-width: 300px){
@@ -122,15 +122,9 @@ h1 {
     display: block;
     color: white;
     text-align: center;
-    font-size: 6em;
+    font-size: 6vw;
     text-align: center;
     opacity: 55%;
-}
-
-@media screen and (max-width: 900px) {
-  h1{ 
-     display: inline-block; 
-  }
 }
 
 figure{
@@ -139,12 +133,10 @@ figure{
 }
 
 img{
-  margin-top: 390px;
+  margin-bottom: 65vh;
 }
 
-.seaAnimals:nth-child(1){
-    margin-left: -300px;
-}
+
 html {
 	box-sizing: border-box;
   scroll-behavior: smooth;
@@ -154,18 +146,10 @@ html {
 *:after {
 	box-sizing: inherit;
 }
-html{
-  height: 860px;
-  background: #80daff;
-  
-}
-/* [ON BIG SCREENS] */
-/* Wrapper */
+
 #hamnav {
     width: 100%;
     background: #80daff;
-    /* Optional */
-    position: sticky;
     top: 0;
   }
   
@@ -173,7 +157,7 @@ html{
   
   #hamitems { display: flex; }
   #hamitems a {
-    width: 100%; /* 100% / 5 tabs = 20% */
+    width: 100%; 
     padding: 10px;
     color: white;
     text-decoration: none;
@@ -189,19 +173,16 @@ html{
       padding: 10px;
     }
   
-    /* Break down menu items into vertical */
     #hamitems a {
       box-sizing: border-box;
       display: block;
       width: 100%;
     }
   
-    /* Toggle Show/Hide Menu */
     #hamitems { display: none; }
     #hamnav input:checked ~ #hamitems { display: block; }
   }
   
-  /* [DOES NOT MATTER] */ 
   html, body { 
     padding: 0; 
     margin: 0; 
@@ -212,9 +193,8 @@ html{
     background: #009fe1;
   }
   
-  /* [ON SMALL SCREENS] */
   @media screen and (max-width: 768px){
-    /* Show Hamburger Icon */
+
     #hamnav label { 
       display: inline-block; 
       color: white;
@@ -224,14 +204,12 @@ html{
       padding: 10px;
     }
   
-    /* Break down menu items into vertical */
     #hamitems a {
       box-sizing: border-box;
       display: block;
       width: 100%;
     }
   
-    /* Toggle Show/Hide Menu */
     #hamitems { display: none; }
     #hamnav input:checked ~ #hamitems { display: block; }
   }
@@ -244,6 +222,7 @@ html{
     border: 10px solid #80daff;
       ;
   }
+
   a{
     max-width: 33%;
     padding: 25px;
@@ -254,4 +233,168 @@ html{
     font-size: 4rem;
     color: darkblue;
   }
+
+  #wireFrame{
+    height: 150px;
+    width: 33%; 
+    text-decoration: none;
+  }
+
+  #projectProposal{
+    height: 150px;
+    width: 33%;
+    text-decoration: none;
+ 
+  }
+
+  #uxReport{
+    text-decoration: none;
+  }
+
+  #one{
+    width: 33%;
+    height: 150px;
+    text-decoration: none;
+  }
+
+  #moreMain{
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
+
+  #contentAttribution{
+    height: 150px;
+    text-decoration: none;
+  }
+  
+  header{
+    color: white;
+    opacity: 55%;
+  }
+
+  #quiz{
+    width: 100%;
+    background-color: red;
+    height: 100px;
+    position: absolute;
+    top: 14900px;
+  }
+
+  #diveIn{
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: 2em;
+    opacity: 55%;
+  }
+
+
+  #downArrow{
+    width: 100%;
+    background: transparent;
+    color: white;
+    font-size: 1.5em;
+    animation: blinker 1s linear infinite;
+    font-size: 5rem;
+  }
+
+  @keyframes blinker {
+    100% {
+      opacity: 0;
+    }
+  }
+
+  #bodyMain{
+    display: grid;
+    grid-template-rows: 7fr 1fr 1fr;
+    height: 100vh;
+    background-color: #80daff;
+  }
+
+  main{
+    background-color: white;
+    border: none;
+    text-decoration: none;
+  }
+
+#one{
+  width: 33%;
+  height: 350px;
+  text-decoration: none;
+  text-align: center;
+  color: #084080;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  
+}
+
+#two{
+  width: 33%;
+  height: 350px;
+  text-decoration: none;
+  text-align: center;
+  color: #084080;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+  
+}
+
+#three{
+  width: 33%;
+  height: 350px;
+  text-decoration: none;
+  text-align: center;
+  color: #084080;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+#learnMore{
+  margin-bottom: 35px;
+  margin-top: 25px;
+}
+
+#project{
+    margin-bottom: 35px;
+    margin-top: 25px;
+  }
+
+section:hover{
+  color:#009fe1;
+  opacity: 50%;
+}
+
+#moreProject{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px;
+  color: #084080;
+  wrap: nowrap; 
+}
+
+#projectProposal{
+  width: 25%;
+  color: #084080;
+}
+
+#wireFrame{
+  width: 25%;
+  color: #084080;
+}
+
+#uxReport{
+  width: 25%;
+  color: #084080;
+}
+
+#contentAttribution{
+  color: #084080;
+}
+
+#turtles{
+  margin-left: 10vw;
+  margin-top: 105vh;
+}
+
 
