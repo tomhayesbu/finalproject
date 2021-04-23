@@ -1,8 +1,6 @@
 html {
 	box-sizing: border-box;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-
 }
 *,
 *:before,
@@ -11,8 +9,7 @@ html {
 }
 
 html{
-  height: 15000px; 
-  background: linear-gradient(#80daff, #009fe1, #084080, #001a33, #000000);
+  background: linear-gradient(#80daff, #80daff, #009fe1, #084080, #001a33, #000000);
 }
 
 #hamnav {
@@ -102,21 +99,6 @@ footer{
   width: 100%;
 }
 
-@media screen and (max-width: 300px){
-  footer{
-    visibility: hidden;
-  }
-}
-
-@media screen and (max-width: 600px){
-  footer{
-    display: flex;
-    width: 150px;
-    height: 100px;
-    margin-left: 34%;
-  }
-}
-
 h1 {
     padding: 30px;
     display: block;
@@ -131,11 +113,6 @@ figure{
   float: right;
   margin-right: -575px;
 }
-
-img{
-  margin-bottom: 65vh;
-}
-
 
 html {
 	box-sizing: border-box;
@@ -214,13 +191,12 @@ html {
     #hamnav input:checked ~ #hamitems { display: block; }
   }
   
-  main{
+main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     background: white;
     border: 10px solid #80daff;
-      ;
   }
 
   a{
@@ -273,13 +249,6 @@ html {
     opacity: 55%;
   }
 
-  #quiz{
-    width: 100%;
-    background-color: red;
-    height: 100px;
-    position: absolute;
-    top: 14900px;
-  }
 
   #diveIn{
     width: 100%;
@@ -287,6 +256,7 @@ html {
     color: white;
     font-size: 2em;
     opacity: 55%;
+  align-self: end;
   }
 
 
@@ -309,7 +279,7 @@ html {
     display: grid;
     grid-template-rows: 7fr 1fr 1fr;
     height: 100vh;
-    background-color: #80daff;
+    background-color:#80daff;
   }
 
   main{
@@ -366,35 +336,224 @@ section:hover{
 }
 
 #moreProject{
-  display: flex;
+  display: grid;
   justify-content: space-evenly;
   margin: 0px;
   color: #084080;
-  wrap: nowrap; 
+  wrap: nowrap;
+  text-align: center;
+
 }
 
 #projectProposal{
   width: 25%;
   color: #084080;
+  margin-left: 8.5vw;
 }
 
 #wireFrame{
   width: 25%;
   color: #084080;
+  margin-left: 8.5vw;
 }
 
 #uxReport{
   width: 25%;
   color: #084080;
+  margin-left: 8.5vw;
 }
 
 #contentAttribution{
+  width: 25%;
   color: #084080;
+  margin-left: 8.5vw;
 }
 
 #turtles{
-  margin-left: 10vw;
-  margin-top: 105vh;
+  margin-left: 43vw;
+}
+
+#coralreef{
+  margin-left: 55vw;
+}
+
+#baitball{
+}
+
+#deepBlue{
+  padding-top: 30vh;
+}
+
+#dolphins{
+  margin-left: 22vw;
 }
 
 
+#whaleshark{
+  margin-left: 37vw;
+}
+
+#tunafish{
+  margin-left: 43vw;
+}
+
+#jellyfish{
+  margin-left: 40vw;
+}
+
+#octopus{
+  margin-left: 50vw;
+}
+
+footer{
+  position: relative;
+  align-self: center;
+  background-color: black;
+  color: black;
+  margin-left: 5vw;
+}
+
+#bubbleOne{
+  padding: 0px;
+  margin-left: -5vw;
+  margin-right: -15vw;
+}
+
+#bubblesMediumTurtles{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#bubbleTwo{
+  padding: 0px;
+  margin-left: 20vw;
+  margin-right: -15vw;
+}
+
+#bubblesMediumCoralreef{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#bubbleThree{
+  padding: 0px;
+  margin-left: -12vw;
+  margin-right: -15vw;
+}
+
+#bubblesSmallBaitball{
+  padding: 0px;
+  margin-left: 30vw;
+  margin-right: -3.5vw;
+}
+
+#bubbleFour{
+  padding: 0px;
+  margin-left: -5vw;
+  margin-right: -15vw;
+}
+
+#bubblesSmallDolphins{
+  padding: 0px;
+  margin-left: 43vw;
+  margin-right: -3.5vw;
+}
+
+#bubbleFive{
+  padding: 0px;
+  margin-left: -11.5vw;
+  margin-right: -15vw;
+}
+
+#bubblesMediumWhaleshark{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#bubbleSix{
+  padding: 0px;
+  margin-right: -15vw;
+}
+
+#bubblesMediumTuna{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#bubbleSeven{
+  padding: 0px;
+  margin-left: -11.5vw;
+}
+
+#bubblesSmallSharks{
+  padding: 0px;
+  margin-left: 30vw;
+  margin-right: -3vw;
+}
+
+#bubbleEight{
+  padding: 0px;
+  margin-left: -11.5vw;
+}
+
+#bubblesSmallHumpbackwhale{
+  padding: 0px;
+  margin-left: 38vw;
+  margin-right: -3vw;
+}
+
+#bubbleNine{
+  padding: 0px;
+  margin-left: 15vw;
+  margin-right: -15vw;
+}
+
+#bubblesMediumJellyfish{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#bubbleTen{
+  padding: 0px;
+  margin-left: -11.5vw;
+}
+
+#bubblesSmallGiantsquid{
+  padding: 0px;
+  margin-left: 40vw;
+  margin-right: -3vw
+}
+
+#bubbleEleven{
+  padding: 0px;
+  margin-left: -11.5vw;
+}
+
+#bubblesSmallAnglerfish{
+  padding: 0px;
+  margin-left: 33vw;
+  margin-right: -3vw
+}
+
+#bubbleTwelve{
+  padding: 0px;
+  margin-left: 15vw;
+  margin-right: -15vw;
+}
+
+#bubblesMediumOctopus{
+  padding: 0px;
+  margin-right: -6vw;
+}
+
+#octopus{
+  margin-bottom: 40vh;
+}
+
+.seaAnimals{
+  margin-bottom: 65vh;
+}
+
+#learnMoreBody{
+  background-color: #80daff;
+}
