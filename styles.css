@@ -421,8 +421,6 @@ footer{
   margin-right: -6vw;
 }
 
-
-
 #bubbleTwo{
   padding: 0px;
   margin-left: 20vw;
@@ -448,12 +446,14 @@ footer{
   margin-right: -3.5vw;
 }
 
-
-
 #bubbleFour{
   padding: 0px;
-  margin-left: -40vw;
+  margin-left: 1vw;
   margin-right: -15vw;
+}
+
+#bubblesSmallWhaleshark{
+  margin-left: -7vw;
 }
 
 #bubblesSmallDolphins{
@@ -461,6 +461,7 @@ footer{
   margin-left: 30vw;
   margin-right: -3.5vw;
 }
+
 #bubblesMediumDolphins{
   margin-right: -25vw;
 }
@@ -481,8 +482,6 @@ footer{
   margin-right: -6vw;
 }
 
-
-
 #bubbleSeven{
   padding: 0px;
   margin-left: -11.5vw;
@@ -493,8 +492,6 @@ footer{
   margin-left: 30vw;
   margin-right: -3vw;
 }
-
-
 
 #bubbleEight{
   padding: 0px;
@@ -507,8 +504,6 @@ footer{
   margin-right: -3vw;
 }
 
-
-
 #bubbleNine{
   padding: 0px;
   margin-left: 15vw;
@@ -519,8 +514,6 @@ footer{
   padding: 0px;
   margin-right: -6vw;
 }
-
-
 
 #bubbleTen{
   padding: 0px;
@@ -533,8 +526,6 @@ footer{
   margin-right: -3vw
 }
 
-
-
 #bubbleEleven{
   padding: 0px;
   margin-left: -11.5vw;
@@ -546,8 +537,6 @@ footer{
   margin-right: -3vw
 }
 
-
-
 #bubbleTwelve{
   padding: 0px;
   margin-left: 15vw;
@@ -558,7 +547,6 @@ footer{
   padding: 0px;
   margin-right: -6vw;
 }
-
 
 #octopus{
   margin-bottom: 40vh;
