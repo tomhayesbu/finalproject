@@ -587,7 +587,7 @@ opacity: 1;
   border-bottom: 10vh;
 }
 
-h3{
+#message{
   color:#80daff;
   font-size: 3.05vw;
   opacity: 55%;
@@ -595,12 +595,11 @@ h3{
   margin-right: 5vw;
 }
 
-h2{
+#congrats{
   color: white;
   font-size: 8vw;
   opacity: 55%;
   margin-left: 3vw;
-
 }
 
 #rtsBtn{
