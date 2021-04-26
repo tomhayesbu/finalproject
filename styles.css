@@ -90,14 +90,6 @@ button{
   border: none;
 }
 
-footer{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  top: 100px;
-  width: 100%;
-}
 
 h1 {
     padding: 30px;
@@ -340,7 +332,6 @@ section:hover{
   justify-content: space-evenly;
   margin: 0px;
   color: #084080;
-  wrap: nowrap;
   text-align: center;
 
 }
@@ -581,4 +572,52 @@ opacity: 1;
 
 .bubblesLarge.appear{
 opacity: 1;
+}
+
+#learnMoreBody{
+  background-color: #80daff;
+}
+
+.text{
+  width: 20vw;
+  max-height: 10vh;
+}
+#moreMain{
+  height: 80vh;
+  border-bottom: 10vh;
+}
+
+h3{
+  color:#80daff;
+  font-size: 3.05vw;
+  opacity: 55%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+h2{
+  color: white;
+  font-size: 8vw;
+  opacity: 55%;
+  margin-left: 3vw;
+
+}
+
+#rtsBtn{
+  display: none;
+  position: static;
+  bottom: 20px;
+  right: 35px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #084080;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+#rtsBtn:hover{
+background-color: black;
 }

@@ -1,7 +1,8 @@
 const faders = document.querySelectorAll('.bubblesSmall');
 
 const appearOptions1 = {
-    threshold: 1
+    threshold: 1,
+    rootMargin:'100px'
 
 };
 
@@ -27,12 +28,11 @@ faders.forEach(fader => {
 }); 
 
 
-
-
 const fadeins = document.querySelectorAll('.bubblesMedium');
 
 const appearOptions2 = {
-    threshold: 1
+    threshold: 1,
+    rootMargin:'200px'
 
 };
 
@@ -58,15 +58,11 @@ fadeins.forEach(fadein => {
 }); 
 
 
-
-
-
-
-
 const fadeons = document.querySelectorAll('.bubblesLarge');
 
 const appearOptions3 = {
-    threshold: 1
+    threshold: 1,
+    rootMargin:'300px'
 
 };
 
@@ -90,3 +86,24 @@ appearOptions3);
 fadeons.forEach(fadeon => {
     appearOnScroll3.observe(fadeon);
 }); 
+
+
+
+rtsBtn = Document.getElementById("rtsBtn")
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+    if(document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20){
+            rtsBtn.style.display = "block";
+        }
+        else {
+            rtsBtn.style.display = "none";
+        }
+
+        function topFunction(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+}
