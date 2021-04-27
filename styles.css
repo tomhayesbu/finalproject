@@ -644,3 +644,7 @@ background-color: black;
 #message{
   text-transform: uppercase;
 }
+
+#congrats{
+  text-transform: uppercase;
+}
