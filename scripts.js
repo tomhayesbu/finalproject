@@ -89,7 +89,7 @@ fadeons.forEach(fadeon => {
 
 
 
-rtsBtn = Document.getElementById("rtsBtn")
+rtsBtn = document.getElementById("rtsBtn");
 
 window.onscroll = function() {scrollFunction()};
 
