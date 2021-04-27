@@ -604,7 +604,7 @@ opacity: 1;
 
 #rtsBtn{
   display: none;
-  position: static;
+  position: fixed;
   bottom: 20px;
   right: 35px;
   z-index: 99;
